@@ -1,44 +1,13 @@
 import agents from "../data/agents.json";
+import SiteHeader from "./components/SiteHeader";
+import SiteFooter from "./components/SiteFooter";
 
 export default function Home() {
   const top3 = agents.slice(0, 3);
 
   return (
     <div className="flex flex-col min-h-screen">
-      {/* ===== Header ===== */}
-      <header className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-border">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-          <a href="/" className="flex items-center gap-2">
-            <span className="text-2xl font-bold text-primary">FE</span>
-            <span className="text-lg font-bold text-text-primary">
-              フリーエンジニアHub
-            </span>
-          </a>
-          <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-text-secondary">
-            <a href="#ranking" className="hover:text-primary transition-colors">
-              ランキング
-            </a>
-            <a href="#guide" className="hover:text-primary transition-colors">
-              単価帯ガイド
-            </a>
-            <a href="#roadmap" className="hover:text-primary transition-colors">
-              独立ロードマップ
-            </a>
-            <a href="#choose" className="hover:text-primary transition-colors">
-              選び方
-            </a>
-            <a href="#faq" className="hover:text-primary transition-colors">
-              FAQ
-            </a>
-          </nav>
-          <a
-            href="#ranking"
-            className="md:hidden text-sm font-medium text-primary"
-          >
-            ランキングを見る
-          </a>
-        </div>
-      </header>
+      <SiteHeader />
 
       {/* ===== Hero ===== */}
       <section className="relative overflow-hidden bg-gradient-to-br from-[#0F172A] via-[#1E293B] to-[#0F172A] text-white">
@@ -251,14 +220,22 @@ export default function Home() {
                   </div>
 
                   {/* CTA */}
-                  <a
-                    href={agent.officialUrl}
-                    target="_blank"
-                    rel="noopener noreferrer nofollow"
-                    className="inline-flex items-center justify-center px-6 py-3 bg-primary hover:bg-primary-dark text-white font-medium rounded-lg transition-colors text-sm"
-                  >
-                    {agent.name}の公式サイトを見る
-                  </a>
+                  <div className="flex flex-wrap gap-3">
+                    <a
+                      href={agent.officialUrl}
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                      className="inline-flex items-center justify-center px-6 py-3 bg-primary hover:bg-primary-dark text-white font-medium rounded-lg transition-colors text-sm"
+                    >
+                      {agent.name}の公式サイトを見る
+                    </a>
+                    <a
+                      href={`/agent/${agent.slug}/`}
+                      className="inline-flex items-center justify-center px-6 py-3 border border-primary text-primary hover:bg-primary/5 font-medium rounded-lg transition-colors text-sm"
+                    >
+                      詳細レビューを見る
+                    </a>
+                  </div>
                 </div>
               </div>
             ))}
@@ -537,6 +514,48 @@ export default function Home() {
               </ul>
             </div>
           </div>
+
+          {/* Links to roadmap detail pages */}
+          <div className="mt-10 text-center">
+            <p className="text-sm text-text-secondary mb-4">独立ガイドをもっと詳しく読む</p>
+            <div className="flex flex-wrap justify-center gap-3">
+              <a href="/roadmap/complete-guide/" className="inline-block px-4 py-2 bg-white border border-border rounded-lg text-sm text-text-secondary hover:text-primary hover:border-primary transition-colors">独立完全ガイド</a>
+              <a href="/roadmap/preparation/" className="inline-block px-4 py-2 bg-white border border-border rounded-lg text-sm text-text-secondary hover:text-primary hover:border-primary transition-colors">独立前の準備10選</a>
+              <a href="/roadmap/tax-guide/" className="inline-block px-4 py-2 bg-white border border-border rounded-lg text-sm text-text-secondary hover:text-primary hover:border-primary transition-colors">税金・確定申告ガイド</a>
+              <a href="/roadmap/income-reality/" className="inline-block px-4 py-2 bg-white border border-border rounded-lg text-sm text-text-secondary hover:text-primary hover:border-primary transition-colors">年収リアル</a>
+              <a href="/roadmap/failure-cases/" className="inline-block px-4 py-2 bg-white border border-border rounded-lg text-sm text-text-secondary hover:text-primary hover:border-primary transition-colors">失敗事例と回避方法</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ===== スキル別案件 ===== */}
+      <section className="bg-white py-12">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <div className="text-center mb-8">
+            <h2 className="text-xl sm:text-2xl font-bold text-text-primary mb-2">
+              スキル別案件ガイド
+            </h2>
+            <p className="text-text-secondary text-sm">あなたのスキルに合った案件の単価相場を確認しよう</p>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+            {[
+              { href: "/skill/java/", label: "Java", sub: "月70万円〜" },
+              { href: "/skill/python/", label: "Python", sub: "月80万円〜" },
+              { href: "/skill/react/", label: "React/Next.js", sub: "月75万円〜" },
+              { href: "/skill/aws/", label: "AWS/クラウド", sub: "月85万円〜" },
+              { href: "/skill/pm-pmo/", label: "PM/PMO", sub: "月90万円〜" },
+            ].map((skill) => (
+              <a
+                key={skill.href}
+                href={skill.href}
+                className="flex flex-col items-center gap-1.5 p-4 bg-background rounded-xl border border-border hover:border-primary hover:shadow-sm transition-all text-center"
+              >
+                <span className="font-bold text-text-primary text-sm">{skill.label}</span>
+                <span className="text-xs text-primary font-medium">{skill.sub}</span>
+              </a>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -708,89 +727,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ===== Footer ===== */}
-      <footer className="bg-dark text-gray-400 py-12">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <div className="grid sm:grid-cols-3 gap-8 mb-8">
-            <div>
-              <div className="flex items-center gap-2 mb-4">
-                <span className="text-xl font-bold text-white">FE</span>
-                <span className="text-sm font-bold text-gray-300">
-                  フリーエンジニアHub
-                </span>
-              </div>
-              <p className="text-xs leading-relaxed">
-                フリーランスエンジニア向けエージェント比較サイト。厳選10社を多角的に比較し、最適なエージェント選びをサポートします。
-              </p>
-            </div>
-            <div>
-              <h4 className="text-sm font-bold text-gray-300 mb-3">
-                コンテンツ
-              </h4>
-              <ul className="space-y-2 text-xs">
-                <li>
-                  <a
-                    href="#ranking"
-                    className="hover:text-white transition-colors"
-                  >
-                    エージェントランキング
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#guide"
-                    className="hover:text-white transition-colors"
-                  >
-                    月単価帯別ガイド
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#roadmap"
-                    className="hover:text-white transition-colors"
-                  >
-                    独立ロードマップ
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#choose"
-                    className="hover:text-white transition-colors"
-                  >
-                    エージェントの選び方
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#faq"
-                    className="hover:text-white transition-colors"
-                  >
-                    よくある質問
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="text-sm font-bold text-gray-300 mb-3">
-                運営情報
-              </h4>
-              <ul className="space-y-2 text-xs">
-                <li>運営: 株式会社MediaX</li>
-                <li>所在地: 東京都渋谷区</li>
-              </ul>
-            </div>
-          </div>
-          <div className="border-t border-gray-800 pt-6 text-center">
-            <p className="text-xs">
-              &copy; 2026 フリーエンジニアHub 運営:株式会社MediaX All Rights
-              Reserved.
-            </p>
-            <p className="text-xs mt-2 text-gray-500">
-              ※当サイトはアフィリエイトプログラムに参加しています。掲載情報は2026年4月時点のものです。最新情報は各エージェントの公式サイトでご確認ください。
-            </p>
-          </div>
-        </div>
-      </footer>
+      <SiteFooter />
     </div>
   );
 }

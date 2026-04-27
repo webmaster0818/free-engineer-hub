@@ -1,0 +1,205 @@
+[
+  {
+    "slug": "java",
+    "title": "Java案件の単価相場と案件傾向",
+    "description": "フリーランスエンジニア向けJava案件の最新単価相場・需要動向・スキル要件を詳しく解説。2026年のJavaエンジニア市場を徹底分析。",
+    "avgMonthlyRate": 70,
+    "avgMonthlyRateRange": "55〜90",
+    "demandTrend": "安定",
+    "demandDetail": "SI・金融・製造業を中心に根強い需要があり、Spring Bootを用いたバックエンド開発案件が多数。クラウド移行案件でも需要継続。",
+    "keySkills": [
+      "Java（8以降）",
+      "Spring Boot",
+      "MyBatis / Hibernate",
+      "Oracle / PostgreSQL / MySQL",
+      "Maven / Gradle",
+      "Docker / Kubernetes",
+      "AWS / Azure（基本的なサービス）",
+      "Git / CI/CD（Jenkins等）"
+    ],
+    "careerTips": [
+      "Spring Boot + REST API + DBの三点セットが基本スキル。これだけでも中堅案件は十分狙える",
+      "Javaエンジニアとしてのキャリアアップはクラウド（AWS/Azure）設計スキルの追加が有効",
+      "金融・保険系の大規模SIは高単価（80〜100万円）だが常駐が多い",
+      "マイクロサービスアーキテクチャの経験があると単価が10〜20万円上乗せされるケースも"
+    ],
+    "faqs": [
+      {
+        "question": "Javaエンジニアとしてフリーランスになるのにどれくらいの経験が必要？",
+        "answer": "最低3年以上の実務経験が基準になることが多いです。Spring Bootを使ったWebアプリ開発の経験があれば、月60〜70万円程度の案件を狙えます。"
+      },
+      {
+        "question": "Javaの需要は今後も続く？",
+        "answer": "はい、SI・金融・製造業を中心に長期的な需要があります。レガシーシステムのクラウド移行案件も増えており、当面は安定した需要が続くと見られています。"
+      },
+      {
+        "question": "Javaエンジニアが単価を上げるために必要なことは？",
+        "answer": "アーキテクチャ設計経験、AWSなどクラウドスキル、チームリード・設計書作成などの上流スキルが単価アップに直結します。月80万円以上を目指すにはJava以外のスキルの掛け合わせが重要です。"
+      }
+    ],
+    "recommendedAgents": ["levtech-freelance", "pe-bank", "techstock"]
+  },
+  {
+    "slug": "python",
+    "title": "Python案件の単価相場と将来性",
+    "description": "AI・機械学習・データ分析の需要急増でフリーランス市場でも高人気のPython案件を徹底解説。単価相場・スキル要件・将来性まで網羅。",
+    "avgMonthlyRate": 80,
+    "avgMonthlyRateRange": "60〜120",
+    "demandTrend": "急上昇",
+    "demandDetail": "AI・機械学習・データエンジニアリング需要の急増でPython案件は増加一方。Webバックエンド（Django/FastAPI）も根強い需要があり、スキルの汎用性が高い。",
+    "keySkills": [
+      "Python（3.x）",
+      "Django / FastAPI / Flask",
+      "pandas / NumPy / scikit-learn",
+      "TensorFlow / PyTorch（AI/ML案件）",
+      "SQL / NoSQL",
+      "AWS / GCP（SageMaker / BigQuery）",
+      "Docker / Kubernetes",
+      "Airflow / dbt（データエンジニア）"
+    ],
+    "careerTips": [
+      "Webバックエンド（FastAPI）とAI/ML系の2軸で案件を探すと選択肢が広がる",
+      "データエンジニアリング（Airflow/dbt/BigQuery）スキルは高単価案件（90〜120万円）につながる",
+      "LLM・生成AI関連（LangChain/RAG）の経験は現時点で希少価値が高く単価プレミアムがある",
+      "競合が多いWebバックエンドより、AI/MLやデータ基盤構築にフォーカスすると差別化しやすい"
+    ],
+    "faqs": [
+      {
+        "question": "PythonエンジニアのフリーランスはAI経験必須？",
+        "answer": "必須ではありません。DjangoやFastAPIを使ったWebバックエンド案件も多数あります。ただしAI/ML経験があると単価が大幅に上がり、案件の選択肢も広がります。"
+      },
+      {
+        "question": "Python案件は今後も需要が続く？",
+        "answer": "はい、AI・データ分析・クラウド活用の普及により、当面は需要増加が続く見通しです。LLM・生成AI関連の案件も急増しており、Pythonエンジニアの市場価値は高い状態が続きます。"
+      },
+      {
+        "question": "Pythonだけで月100万円以上の案件を狙える？",
+        "answer": "AI/MLエンジニア・データエンジニア・LLMアプリケーション開発の経験があれば月100万円以上の案件も現実的です。特にRAG・ファインチューニング・MLパイプライン構築の経験が高く評価されます。"
+      }
+    ],
+    "recommendedAgents": ["findy", "levtech-freelance", "techstock"]
+  },
+  {
+    "slug": "react",
+    "title": "React/Next.js案件で月単価80万を目指す",
+    "description": "フリーランス市場で需要急増のReact/Next.js案件。月単価80万円を達成するためのスキルセット・案件傾向・キャリア戦略を詳しく解説。",
+    "avgMonthlyRate": 75,
+    "avgMonthlyRateRange": "60〜100",
+    "demandTrend": "急上昇",
+    "demandDetail": "モダンフロントエンド開発の主流となったReact/Next.jsの需要は増加一方。TypeScriptとの組み合わせが標準となり、フルスタック案件も増加。",
+    "keySkills": [
+      "React（Hooks / Context API）",
+      "Next.js（App Router）",
+      "TypeScript",
+      "Tailwind CSS / CSS Modules",
+      "REST API / GraphQL",
+      "Vercel / AWS Amplify",
+      "Jest / Vitest / Playwright（テスト）",
+      "Node.js（基本的なバックエンド）"
+    ],
+    "careerTips": [
+      "React単体より TypeScript + Next.js のセットでアピールすると採用率・単価ともに上がる",
+      "App Router（Server Components）への対応を明確にアピールできると他候補と差別化できる",
+      "フロントエンドだけでなくNode.js/BFF層まで担当できる「フルスタック寄り」の方が高単価",
+      "デザインシステム（shadcn/ui・Storybook）の経験がある候補は希少で単価プレミアムあり",
+      "パフォーマンス最適化（Core Web Vitals）の実績がある場合は積極的にアピールする"
+    ],
+    "faqs": [
+      {
+        "question": "Reactのみで月80万円は達成可能？",
+        "answer": "TypeScript + Next.js + テスト（Vitest/Playwright）の組み合わせで、経験3〜5年以上あれば月80万円は十分狙えます。さらにNode.js/バックエンドまでカバーできるとより達成しやすくなります。"
+      },
+      {
+        "question": "Vue.jsとReactはどちらが案件多い？",
+        "answer": "フリーランス市場ではReactの案件が圧倒的多数です。ただしVue.jsも一定の需要があります。どちらか一方に絞るならReact/Next.jsがより選択肢が広いです。"
+      },
+      {
+        "question": "フロントエンドエンジニアとして単価を上げるには？",
+        "answer": "パフォーマンス最適化・アーキテクチャ設計・バックエンド連携スキルの追加が有効です。「フロントエンドだけ」でなく設計・技術選定まで担当できるシニアエンジニアポジションを狙いましょう。"
+      }
+    ],
+    "recommendedAgents": ["findy", "levtech-freelance", "geeks-job"]
+  },
+  {
+    "slug": "aws",
+    "title": "AWS/クラウド案件の需要と単価",
+    "description": "クラウド移行・インフラ設計の急増でフリーランス市場でも高需要のAWS/クラウドエンジニア案件を徹底解説。資格・スキル・単価相場まで詳しく紹介。",
+    "avgMonthlyRate": 85,
+    "avgMonthlyRateRange": "70〜120",
+    "demandTrend": "急上昇",
+    "demandDetail": "企業のクラウド移行・DX推進の加速でAWS/GCP/Azureの専門家需要が急増。特にAWSのアーキテクト・SRE・DevOps経験者は慢性的な不足状態。",
+    "keySkills": [
+      "AWS（EC2 / S3 / RDS / Lambda等）",
+      "VPC / セキュリティグループ / IAM",
+      "Terraform / CloudFormation",
+      "Docker / Kubernetes（EKS）",
+      "CI/CD（CodePipeline / GitHub Actions）",
+      "監視（CloudWatch / Datadog）",
+      "AWS Solutions Architect資格",
+      "Linux / Bash / Python（自動化）"
+    ],
+    "careerTips": [
+      "AWS Solutions Architect Professional資格は取得しているだけで単価が10〜15万円上がることがある",
+      "Terraformによるインフラコード化（IaC）の経験が現在最も求められているスキルの一つ",
+      "SRE・Platform Engineering系の案件は月100万円超えも多く、キャリアの目玉になる",
+      "AWSだけでなくGCP・Azureも含めたマルチクラウド経験があるとさらに希少価値が上がる",
+      "セキュリティ（CSPM・WAF・Identity）スキルは今後さらに需要が増加する見通し"
+    ],
+    "faqs": [
+      {
+        "question": "AWS案件でフリーランスになるのに必要な経験は？",
+        "answer": "AWSを使った実務経験2〜3年以上と、主要サービス（EC2/RDS/VPC/IAM等）の設計・構築経験があれば案件獲得可能です。Terraform経験があるとより有利です。"
+      },
+      {
+        "question": "AWS資格は必要？",
+        "answer": "必須ではありませんが、Solutions Architect Associateは取得しておくと面談での評価が高くなります。Professionalレベルを持っているとさらに単価アップに繋がります。"
+      },
+      {
+        "question": "クラウド案件はフルリモートが多い？",
+        "answer": "はい、インフラ・クラウド系案件はリモートワーク率が高い傾向があります。特にSRE・DevOps案件はほぼフルリモートが多く、フリーランスとの相性が良いです。"
+      }
+    ],
+    "recommendedAgents": ["techstock", "levtech-freelance", "findy"]
+  },
+  {
+    "slug": "pm-pmo",
+    "title": "PM/PMO案件の単価と求められるスキル",
+    "description": "フリーランス市場でも高単価のPM（プロジェクトマネージャー）・PMO案件を詳しく解説。求められるスキル・経験・単価相場・キャリアパスまで紹介。",
+    "avgMonthlyRate": 90,
+    "avgMonthlyRateRange": "75〜130",
+    "demandTrend": "高需要継続",
+    "demandDetail": "DX推進・システムリプレース・クラウド移行プロジェクトの増加でPM/PMO需要が急増。技術バックグラウンドを持つITプロジェクトのPMは特に不足しており高単価案件が多い。",
+    "keySkills": [
+      "プロジェクト管理（WBS / スケジュール管理）",
+      "リスク管理・課題管理",
+      "ステークホルダー管理",
+      "PMOとしての体制構築・標準化",
+      "アジャイル・スクラム",
+      "IT技術の基礎知識（インフラ・開発・データ）",
+      "プレゼンテーション・報告資料作成",
+      "PMP / 情報処理（PM試験）資格（あると有利）"
+    ],
+    "careerTips": [
+      "PM案件は「経験した案件の規模と予算」が最重要。大規模PJ（予算1億円以上）経験があると高単価案件に繋がる",
+      "技術バックグラウンドのあるPMは希少で、月100万円以上の案件も珍しくない",
+      "PMOとして「標準化・テンプレート作成・PMサポート」をした経験も評価される",
+      "上流工程（要件定義・RFP作成）まで担当できるとコンサルティング系高単価案件を狙える",
+      "PMPや情報処理技術者試験（PMP/プロマネ）の資格は対外的な信頼性を高める"
+    ],
+    "faqs": [
+      {
+        "question": "プログラミングができなくてもPM案件に就けるか？",
+        "answer": "はい、PMとして管理スキルが主体であれば技術実装は必要ありません。ただし技術的な会話がわかる程度の基礎知識（インフラ構成の理解・開発工程の知識等）は必要です。"
+      },
+      {
+        "question": "エンジニアからPMへキャリアチェンジできる？",
+        "answer": "はい、技術バックグラウンドのあるPMは市場で非常に評価されます。エンジニアとして5年以上経験した後にPMへシフトするキャリアパスは多くのフリーランスが歩んでいます。"
+      },
+      {
+        "question": "PMO案件とPM案件の違いは？",
+        "answer": "PM（プロジェクトマネージャー）は特定プロジェクトの責任者として直接管理を行います。PMO（プロジェクト管理オフィス）は複数プロジェクトの横断的な支援・標準化を行います。フリーランスはPMO案件のほうが単発で入りやすい傾向があります。"
+      }
+    ],
+    "recommendedAgents": ["techstock", "itpro-partners", "levtech-freelance"]
+  }
+]
