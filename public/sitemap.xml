@@ -85,7 +85,7 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- Skill pages -->
+  <!-- Skill pages (original 5) -->
   <url>
     <loc>https://free-engineer-hub.com/skill/java/</loc>
     <changefreq>monthly</changefreq>
@@ -108,6 +108,189 @@
   </url>
   <url>
     <loc>https://free-engineer-hub.com/skill/pm-pmo/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Skill pages (new 10) -->
+  <url>
+    <loc>https://free-engineer-hub.com/skill/php/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/skill/ruby/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/skill/go/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/skill/vue/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/skill/typescript/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/skill/ios-swift/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/skill/android-kotlin/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/skill/flutter/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/skill/infra-linux/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/skill/sap/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Working style pages (10) -->
+  <url>
+    <loc>https://free-engineer-hub.com/workstyle/week3-week4/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/workstyle/full-remote/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/workstyle/side-job-to-freelance/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/workstyle/benefits-insurance/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/workstyle/contract-types/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/workstyle/onsite-vs-remote/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/workstyle/regional-freelance/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/workstyle/multiple-projects/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/workstyle/overseas-remote/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/workstyle/work-life-balance/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Useful guide pages (10) -->
+  <url>
+    <loc>https://free-engineer-hub.com/useful/tax-return/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/useful/invoice-system/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/useful/retirement-savings/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/useful/anxiety/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/useful/rate-negotiation/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/useful/client-relations/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/useful/contract-checklist/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/useful/between-projects/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/useful/bank-creditcard/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/useful/incorporation/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Compare pages (5) -->
+  <url>
+    <loc>https://free-engineer-hub.com/compare/levtech-vs-midworks/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/compare/specialized-vs-general/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/compare/margin-comparison/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/compare/benefits-comparison/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/compare/remote-comparison/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

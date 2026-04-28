@@ -1,0 +1,165 @@
+[
+  {
+    "slug": "levtech-vs-midworks",
+    "title": "レバテック vs Midworks徹底比較",
+    "description": "フリーランスエンジニア向けエージェント2強のレバテックフリーランスとMidworksを徹底比較。案件数・単価・福利厚生・サポート体制まで詳しく解説。",
+    "agents": ["levtech-freelance", "midworks"],
+    "comparisonTable": [
+      { "category": "案件数", "levtech": "20,000件以上（業界最大）", "midworks": "5,000件以上" },
+      { "category": "平均年収", "levtech": "876万円", "midworks": "840万円" },
+      { "category": "リモート率", "levtech": "45%", "midworks": "55%" },
+      { "category": "最低稼働日数", "levtech": "週5日", "midworks": "週3日〜" },
+      { "category": "福利厚生", "levtech": "税務相談・確定申告サポート", "midworks": "社会保険加入・給与保障" },
+      { "category": "マージン率", "levtech": "非公開（業界平均水準）", "midworks": "非公開（業界平均水準）" },
+      { "category": "得意分野", "levtech": "大手企業・高単価案件", "midworks": "福利厚生・週3〜4稼働" }
+    ],
+    "winnerByCategory": [
+      { "category": "案件数の多さ", "winner": "levtech-freelance", "reason": "業界最大級の20,000件以上の案件数を保有" },
+      { "category": "福利厚生の充実度", "winner": "midworks", "reason": "社会保険加入・給与保障など会社員に近い待遇" },
+      { "category": "リモート案件", "winner": "midworks", "reason": "リモート率55%でリモート案件の比率が高い" },
+      { "category": "高単価案件", "winner": "levtech-freelance", "reason": "大手企業との直接取引案件が豊富で高単価" },
+      { "category": "週3〜4稼働", "winner": "midworks", "reason": "週3稼働でも受け入れる案件が多い" }
+    ],
+    "recommendation": "案件の選択肢を最大化したい・とにかく高単価案件を探したいならレバテックフリーランス、フルリモート重視・週3〜4稼働希望・福利厚生にこだわりたいならMidworksがおすすめです。実際には両方に登録して比較検討するのが最善です。",
+    "faqs": [
+      {
+        "question": "レバテックとMidworks、どちらに先に登録すべき？",
+        "answer": "まずレバテックフリーランスに登録して案件数の多さとサポートを確認し、次にMidworksで条件面（稼働日数・福利厚生）を比較するのが効率的です。"
+      },
+      {
+        "question": "両方同時に登録しても問題ない？",
+        "answer": "問題ありません。複数エージェントへの同時登録は一般的で推奨されています。各エージェントから異なる案件を紹介してもらい、最良の条件で選択できます。"
+      },
+      {
+        "question": "レバテックとMidworks、マージン率はどちらが低い？",
+        "answer": "どちらも正式な公開はしていませんが、業界水準（15〜25%程度）での運営とされています。重要なのは自分への支払い単価なので、提示される案件単価で比較することをおすすめします。"
+      }
+    ]
+  },
+  {
+    "slug": "specialized-vs-general",
+    "title": "特化型 vs 総合型エージェント比較",
+    "description": "ITエンジニア特化型エージェントと総合型（全職種対応）エージェントを徹底比較。フリーランスエンジニアにはどちらが向いているか2026年最新情報で解説。",
+    "agents": ["levtech-freelance", "findy", "pe-bank", "midworks"],
+    "comparisonTable": [
+      { "category": "エンジニア特化案件数", "specialized": "多い（全案件がエンジニア向け）", "general": "少ない（全体の一部）" },
+      { "category": "単価水準", "specialized": "高い（IT相場を熟知）", "general": "やや低め（交渉力が弱い）" },
+      { "category": "業界知識", "specialized": "深い（担当者もIT出身が多い）", "general": "浅いケースあり" },
+      { "category": "他職種案件", "specialized": "なし", "general": "あり（転向を考えている場合は有利）" },
+      { "category": "サポートの質", "specialized": "技術的な相談が可能", "general": "一般的なキャリア相談" },
+      { "category": "案件の種類", "specialized": "IT・エンジニア案件に特化", "general": "幅広い職種・業種" }
+    ],
+    "winnerByCategory": [
+      { "category": "エンジニア案件数", "winner": "specialized", "reason": "全案件がエンジニア向けのため選択肢が豊富" },
+      { "category": "単価交渉力", "winner": "specialized", "reason": "IT業界の単価相場を熟知しているため適正な交渉が可能" },
+      { "category": "技術面のサポート", "winner": "specialized", "reason": "担当者の技術理解が深く、スキルセットに合った案件を提案できる" },
+      { "category": "職種転換サポート", "winner": "general", "reason": "PM・営業・コンサルなど他職種への転換を考えている場合は総合型が便利" }
+    ],
+    "recommendation": "フリーランスエンジニアとして案件単価・案件数・技術的サポートを重視するなら、IT特化型エージェント（レバテックフリーランス・Findy・PE-BANK等）への登録を優先することを強くおすすめします。総合型は職種転換・全方位的なキャリア検討の際に補完的に活用しましょう。",
+    "faqs": [
+      {
+        "question": "総合型エージェントにも登録する価値はある？",
+        "answer": "IT特化型をメインにしつつ、補完的に総合型に登録するのはありです。ただし担当者のIT知識の差から、案件の質や単価交渉力でIT特化型に劣ることが多いため、優先度は下げた方が良いでしょう。"
+      },
+      {
+        "question": "IT特化型エージェントは何社が良い？",
+        "answer": "2〜3社への並行登録が一般的な最適解です。レバテックフリーランス（案件数重視）＋Findy（モダン技術・リモート重視）などの組み合わせが効果的です。"
+      }
+    ]
+  },
+  {
+    "slug": "margin-comparison",
+    "title": "マージン率で比較！低マージンエージェント",
+    "description": "フリーランスエンジニア向けエージェントのマージン率を比較。手数料が低く手取りが多いエージェントの特徴と選び方を2026年版で解説。",
+    "agents": ["pe-bank", "techfree", "levtech-freelance", "findy", "midworks"],
+    "comparisonTable": [
+      { "category": "マージン率公開", "pebank": "公開（10〜15%）", "techfree": "非公開", "levtech": "非公開", "findy": "非公開", "midworks": "非公開" },
+      { "category": "推定マージン率", "pebank": "10〜15%（最低水準）", "techfree": "15〜20%", "levtech": "15〜25%", "findy": "15〜20%", "midworks": "20〜25%" },
+      { "category": "サービスの充実度", "pebank": "基本的", "techfree": "標準的", "levtech": "充実", "findy": "充実", "midworks": "非常に充実" },
+      { "category": "案件単価", "pebank": "高め（マージン低い分）", "techfree": "標準", "levtech": "高め", "findy": "高め", "midworks": "標準〜高め" }
+    ],
+    "winnerByCategory": [
+      { "category": "マージン率の低さ", "winner": "pe-bank", "reason": "業界唯一のマージン率公開エージェント。10〜15%と業界最低水準" },
+      { "category": "手取り額の高さ", "winner": "pe-bank", "reason": "マージン率の低さから手取り額が最も高くなるケースが多い" },
+      { "category": "コスパ（サービス÷費用）", "winner": "techfree", "reason": "サービス水準とマージン率のバランスが良い" }
+    ],
+    "recommendation": "手取りを最大化したいなら、マージン率を公開しているPE-BANKは最有力候補です。ただしマージン率が低いほどサービスコストも少なくなる傾向があるため、サポートの充実度とのバランスを考えてエージェントを選びましょう。高単価×充実サポートなら複数に登録して比較するのが最善策です。",
+    "faqs": [
+      {
+        "question": "マージン率が低いエージェントは何がデメリット？",
+        "answer": "マージン率が低い分、営業力・サポート体制・案件開発への投資が少ない場合があります。案件数が少なかったり、サポートが薄いケースがあるため、単純にマージン率だけで選ばない方が良いです。"
+      },
+      {
+        "question": "マージン率の高いエージェントを使うメリットは？",
+        "answer": "マージン分を営業・サポート・案件開拓に再投資しているため、案件数・サポート体制・交渉力が高い傾向があります。マージン率が高くても高単価案件を持ってくれれば手取りは変わらないか高くなることも。"
+      },
+      {
+        "question": "マージン率はどうやって確認できる？",
+        "answer": "PE-BANKのように公開しているエージェントは少ないです。エージェントの担当者に直接「クライアント提示単価と自分への支払い単価の差」を確認することで実質マージンを把握できます。"
+      }
+    ]
+  },
+  {
+    "slug": "benefits-comparison",
+    "title": "福利厚生で比較！手厚いエージェントランキング",
+    "description": "フリーランスエンジニア向けエージェントの福利厚生を徹底比較。社会保険・給与保障・税務サポートなど手厚いエージェントランキングを2026年最新情報で紹介。",
+    "agents": ["midworks", "levtech-freelance", "pe-bank", "techstock", "itpro-partners"],
+    "comparisonTable": [
+      { "category": "社会保険サポート", "midworks": "社会保険加入可", "levtech": "なし（税務相談あり）", "pebank": "なし", "techstock": "なし", "itpro": "なし" },
+      { "category": "給与保障", "midworks": "あり（一定の収入保障）", "levtech": "なし", "pebank": "なし", "techstock": "なし", "itpro": "なし" },
+      { "category": "確定申告サポート", "midworks": "あり", "levtech": "あり（税理士紹介）", "pebank": "あり", "techstock": "あり", "itpro": "あり" },
+      { "category": "勉強会・コミュニティ", "midworks": "あり", "levtech": "あり", "pebank": "あり", "techstock": "あり", "itpro": "あり" },
+      { "category": "賠償責任保険", "midworks": "あり", "levtech": "なし（別途加入推奨）", "pebank": "あり", "techstock": "なし", "itpro": "なし" }
+    ],
+    "winnerByCategory": [
+      { "category": "総合福利厚生", "winner": "midworks", "reason": "社会保険加入・給与保障・確定申告サポートなど業界最高水準の福利厚生" },
+      { "category": "社会保険", "winner": "midworks", "reason": "唯一の社会保険加入サポートで会社員に近い待遇を実現" },
+      { "category": "給与保障", "winner": "midworks", "reason": "案件が途切れた際の収入を一定保障するプログラムあり" },
+      { "category": "税務サポート", "winner": "levtech-freelance", "reason": "専属の税理士紹介・確定申告サポートが充実" }
+    ],
+    "recommendation": "福利厚生を最重視するならMidworksが圧倒的なトップです。特に会社員に近い待遇（社会保険・給与保障）を求めるフリーランスに最適です。ただし案件数と高単価案件の豊富さではレバテックフリーランスが優れているため、両方に登録して条件を比較することをおすすめします。",
+    "faqs": [
+      {
+        "question": "Midworksの社会保険加入はどんな仕組み？",
+        "answer": "Midworksと雇用契約を結ぶことで、会社員と同様の社会保険（健康保険・厚生年金）に加入できます。フリーランスながら会社員の待遇に近い保険制度が利用できる珍しいサービスです。"
+      },
+      {
+        "question": "福利厚生が充実しているエージェントはマージンが高い？",
+        "answer": "必ずしもそうではありませんが、福利厚生にコストをかけているためマージンが標準より高めな場合もあります。福利厚生の価値とマージンを天秤にかけて判断しましょう。"
+      }
+    ]
+  },
+  {
+    "slug": "remote-comparison",
+    "title": "リモート案件数で比較！在宅に強いエージェント",
+    "description": "フルリモート案件が多いフリーランスエンジニア向けエージェントを徹底比較。リモート対応率・在宅案件数・条件まで2026年最新情報でランキング形式で紹介。",
+    "agents": ["findy", "levtech-freelance", "techstock", "midworks", "coconala-tech"],
+    "comparisonTable": [
+      { "category": "リモート案件比率", "findy": "70%以上", "levtech": "45%程度", "techstock": "60%程度", "midworks": "55%程度", "coconala": "80%以上" },
+      { "category": "フルリモート案件数", "findy": "非常に多い", "levtech": "多い（絶対数が多い）", "techstock": "多い", "midworks": "中程度", "coconala": "ほぼ全案件" },
+      { "category": "得意なリモート案件", "findy": "モダン技術・スタートアップ", "levtech": "大手企業のリモート案件", "techstock": "週5フルリモート", "midworks": "週3〜4リモート", "coconala": "個人〜中小企業" },
+      { "category": "地方からの応募", "findy": "対応", "levtech": "対応", "techstock": "対応", "midworks": "対応", "coconala": "対応" }
+    ],
+    "winnerByCategory": [
+      { "category": "リモート案件比率", "winner": "coconala-tech", "reason": "案件の80%以上がリモート対応でフルリモート志向に最適" },
+      { "category": "フルリモート案件の絶対数", "winner": "levtech-freelance", "reason": "全体案件数が多いため、リモート案件の絶対数も多い" },
+      { "category": "モダン技術のリモート案件", "winner": "findy", "reason": "React/Go/TypeScript等のモダン技術案件でリモート比率が高い" },
+      { "category": "週3〜4リモート案件", "winner": "midworks", "reason": "週3〜4稼働のリモート案件に対応している案件が充実" }
+    ],
+    "recommendation": "フルリモートを絶対条件にするなら、Findy・TechStock・ coconalaテックが優先候補です。リモート案件の絶対数を重視するならレバテックフリーランス（総案件数No.1）が有力です。リモート専業でも複数エージェントに登録して条件を比較することを強くおすすめします。",
+    "faqs": [
+      {
+        "question": "リモート案件は単価が低い？",
+        "answer": "以前はリモートで単価が低いケースもありましたが、2026年現在はほぼ同水準が多くなっています。むしろ高スキルエンジニアほどリモート対応を求める傾向があり、リモート×高単価の組み合わせが増えています。"
+      },
+      {
+        "question": "地方在住でもリモート案件を紹介してもらえる？",
+        "answer": "はい、現在のエージェントはほぼすべて地方在住者のリモート案件に対応しています。エージェント登録時に居住地と「フルリモート希望」を伝えることで条件に合う案件を紹介してもらえます。"
+      },
+      {
+        "question": "リモート案件に特化したエージェントはある？",
+        "answer": "coconalaテックはリモート案件比率が80%以上と特に高いです。Findyもモダン技術案件でリモート比率が高く、どちらかリモート志向に向いています。"
+      }
+    ]
+  }
+]

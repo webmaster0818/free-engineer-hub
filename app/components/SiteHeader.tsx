@@ -28,8 +28,14 @@ export default function SiteHeader() {
           <a href="/skill/java/" className="hover:text-primary transition-colors">
             スキル別案件
           </a>
-          <a href="/#faq" className="hover:text-primary transition-colors">
-            FAQ
+          <a href="/workstyle/week3-week4/" className="hover:text-primary transition-colors">
+            働き方
+          </a>
+          <a href="/useful/tax-return/" className="hover:text-primary transition-colors">
+            お役立ち
+          </a>
+          <a href="/compare/levtech-vs-midworks/" className="hover:text-primary transition-colors">
+            比較
           </a>
         </nav>
 
@@ -92,11 +98,25 @@ export default function SiteHeader() {
               スキル別案件
             </a>
             <a
-              href="/#faq"
+              href="/workstyle/week3-week4/"
               className="px-6 py-3 text-sm font-medium text-text-secondary hover:bg-background hover:text-primary transition-colors"
               onClick={() => setMenuOpen(false)}
             >
-              FAQ
+              働き方
+            </a>
+            <a
+              href="/useful/tax-return/"
+              className="px-6 py-3 text-sm font-medium text-text-secondary hover:bg-background hover:text-primary transition-colors"
+              onClick={() => setMenuOpen(false)}
+            >
+              お役立ち
+            </a>
+            <a
+              href="/compare/levtech-vs-midworks/"
+              className="px-6 py-3 text-sm font-medium text-text-secondary hover:bg-background hover:text-primary transition-colors"
+              onClick={() => setMenuOpen(false)}
+            >
+              比較
             </a>
           </nav>
         </div>

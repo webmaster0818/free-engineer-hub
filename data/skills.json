@@ -201,5 +201,415 @@
       }
     ],
     "recommendedAgents": ["techstock", "itpro-partners", "levtech-freelance"]
+  },
+  {
+    "slug": "php",
+    "title": "PHP案件の単価相場と案件傾向",
+    "description": "フリーランスエンジニア向けPHP案件の最新単価相場・需要動向・スキル要件を解説。WordPress・LaravelなどPHPの市場を2026年版で徹底分析。",
+    "avgMonthlyRate": 65,
+    "avgMonthlyRateRange": "50〜85",
+    "demandTrend": "安定",
+    "demandDetail": "WordPress・EC-CUBE・LaravelなどPHPベースのシステムは依然として多く、保守・改修案件が安定的に存在。新規開発でもLaravelを使ったAPI開発案件が継続している。",
+    "keySkills": [
+      "PHP（7.x / 8.x）",
+      "Laravel / CakePHP / Symfony",
+      "WordPress（テーマ・プラグイン開発）",
+      "MySQL / PostgreSQL",
+      "REST API設計",
+      "Composer / Packagist",
+      "Docker",
+      "AWS基本（EC2 / RDS / S3）"
+    ],
+    "careerTips": [
+      "LaravelはPHPフレームワークのデファクトスタンダード。必須スキルとして磨くと案件の幅が広がる",
+      "WordPressの大規模サイト構築・カスタム開発経験はニッチながら高単価案件につながる",
+      "PHPだけでなくReact/Vue.jsとのフルスタック構成にすると単価が10〜20万円上がりやすい",
+      "EC-CUBE・kintone・Salesforce連携の経験は特定業界で高く評価される",
+      "レガシーシステムのPHP5からPHP8へのアップグレード案件も一定数存在する"
+    ],
+    "faqs": [
+      {
+        "question": "PHPエンジニアの需要は今後も続く？",
+        "answer": "既存システムの保守・改修案件は安定して存在しますが、新規開発では他言語（Python/Node.js）との競合も増えています。LaravelやWordPress専門性を高めることで差別化できます。"
+      },
+      {
+        "question": "PHPで月70万円以上の案件は狙える？",
+        "answer": "Laravel + TypeScript/React のフルスタック、もしくは大規模ECサイトのアーキテクト経験があれば月70〜80万円の案件は十分狙えます。PHPの深い経験にクラウドスキルを加えると有利です。"
+      },
+      {
+        "question": "WordPressだけでフリーランスとして生きていける？",
+        "answer": "WordPress特化でも月40〜60万円程度の案件は存在しますが、単価の上限が低い傾向があります。カスタム開発・パフォーマンス改善・セキュリティ対応まで対応できると収入が安定します。"
+      }
+    ],
+    "recommendedAgents": ["levtech-freelance", "geeks-job", "techfree"]
+  },
+  {
+    "slug": "ruby",
+    "title": "Ruby案件の単価相場と市場動向",
+    "description": "フリーランスエンジニア向けRuby/Ruby on Rails案件の最新単価相場・需要動向を解説。スタートアップ中心のRuby市場を2026年版で徹底分析。",
+    "avgMonthlyRate": 70,
+    "avgMonthlyRateRange": "55〜90",
+    "demandTrend": "やや減少",
+    "demandDetail": "新規開発でのRails採用は減少傾向にあるが、既存のRailsシステム保守・改修案件は依然として存在。スタートアップ・SaaS企業を中心に継続需要あり。",
+    "keySkills": [
+      "Ruby（3.x）",
+      "Ruby on Rails（7.x）",
+      "RSpec（テスト）",
+      "PostgreSQL / MySQL",
+      "Redis / Sidekiq",
+      "GraphQL / REST API",
+      "Docker / Kubernetes",
+      "AWS / Heroku / Render"
+    ],
+    "careerTips": [
+      "RubyエンジニアはReact/Next.jsとの組み合わせで「フルスタック」としてアピールすると単価が上がる",
+      "Rails APIモード + フロントエンド分離のアーキテクチャ経験が現在求められているパターン",
+      "スタートアップ特有の「スピード重視・少人数開発」への対応力をアピールすると受かりやすい",
+      "長期のRailsプロジェクト経験（リファクタリング・パフォーマンス改善）は高く評価される",
+      "RubyからGoやTypeScriptへのスキル拡張を視野に入れると将来的な選択肢が広がる"
+    ],
+    "faqs": [
+      {
+        "question": "Rubyの需要は今後どうなる？",
+        "answer": "新規採用は減少傾向ですが、既存Railsシステムの保守・運用需要は当面続きます。スタートアップやSaaSでは引き続き利用されているため、完全になくなることはない見通しです。"
+      },
+      {
+        "question": "Rubyエンジニアとしてフリーランスになるべきか？",
+        "answer": "既にRailsの実務経験があれば参入する価値はあります。ただし長期的なキャリアを考えると、Rubyと並行してGoやPython、TypeScriptなど需要が伸びている言語のスキルアップをおすすめします。"
+      },
+      {
+        "question": "Ruby案件はフルリモートが多い？",
+        "answer": "スタートアップ・IT企業のRuby案件はフルリモート率が高い傾向があります。50〜60%程度がリモート可能なケースが多く、働きやすい環境の案件が比較的多いです。"
+      }
+    ],
+    "recommendedAgents": ["findy", "levtech-freelance", "geeks-job"]
+  },
+  {
+    "slug": "go",
+    "title": "Go言語案件の単価と将来性",
+    "description": "急速に需要が拡大するGo言語のフリーランス案件を徹底解説。単価相場・スキル要件・将来性まで2026年最新情報でお届け。",
+    "avgMonthlyRate": 80,
+    "avgMonthlyRateRange": "65〜110",
+    "demandTrend": "急上昇",
+    "demandDetail": "マイクロサービス・高トラフィックAPI・インフラツール開発でGo言語の採用が急増。KubernetesなどクラウドネイティブツールがGoで書かれていることもあり、クラウドエンジニアにも需要が波及。",
+    "keySkills": [
+      "Go（1.21以降）",
+      "gorilla/mux / gin / Echo（Webフレームワーク）",
+      "gRPC / Protocol Buffers",
+      "PostgreSQL / Redis",
+      "Docker / Kubernetes",
+      "AWS / GCP",
+      "マイクロサービスアーキテクチャ",
+      "CI/CD（GitHub Actions）"
+    ],
+    "careerTips": [
+      "GoはDockerやKubernetesの開発言語でもあるため、インフラ系エンジニアにも学習価値が高い",
+      "gRPC + Protocol Buffersの経験があると大規模マイクロサービス案件で差別化できる",
+      "Python/JavaからGoへの移行組は「パフォーマンス改善案件」での評価が高い",
+      "OSS（Kubernetes ecosystem）へのコントリビューション経験があると書類審査で目立てる",
+      "Goはシンプルな言語仕様なので習得コストが低く、他言語経験者なら3〜6ヶ月で実戦レベルに達しやすい"
+    ],
+    "faqs": [
+      {
+        "question": "Go言語案件でフリーランスになるには何年の経験が必要？",
+        "answer": "2〜3年の実務経験が目安です。ただしGoはシンプルな言語なので、他の言語で5年以上の経験があれば1年程度のGo経験でも採用されるケースがあります。"
+      },
+      {
+        "question": "GoとRustどちらを学ぶべき？",
+        "answer": "フリーランス案件数の観点ではGoが圧倒的に多いです。RustはシステムプログラミングやWebAssemblyで需要がありますが、案件数はまだ少なめです。市場価値を上げたいならGoを優先することをおすすめします。"
+      },
+      {
+        "question": "Go言語の将来性は？",
+        "answer": "クラウドネイティブ・マイクロサービス・高性能APIの需要増加に伴い、Go言語の需要は今後も拡大見込みです。特に大手テック企業がGoを採用しており、長期的な成長が期待できます。"
+      }
+    ],
+    "recommendedAgents": ["findy", "techstock", "levtech-freelance"]
+  },
+  {
+    "slug": "vue",
+    "title": "Vue.js案件の単価と需要",
+    "description": "フリーランスエンジニア向けVue.js案件の最新単価相場・需要動向・スキル要件を解説。Vue 3対応の2026年最新市場を徹底分析。",
+    "avgMonthlyRate": 70,
+    "avgMonthlyRateRange": "55〜90",
+    "demandTrend": "安定",
+    "demandDetail": "Vue 3への移行が進み、Composition APIを活用した開発案件が増加。日本国内ではReactに次ぐ2番手として継続的な需要があり、中小〜中規模企業での採用が多い。",
+    "keySkills": [
+      "Vue.js 3（Composition API）",
+      "Nuxt.js 3",
+      "TypeScript",
+      "Pinia（状態管理）",
+      "Vite（ビルドツール）",
+      "REST API / GraphQL",
+      "Vitest / Cypress（テスト）",
+      "Docker"
+    ],
+    "careerTips": [
+      "Vue 2からVue 3へのマイグレーション経験があると既存プロジェクトへの参加案件で評価される",
+      "Nuxt.js（SSR/SSG）の経験があるとSEO重視のメディア系案件での需要が高い",
+      "ReactとVue両方できることをアピールすると案件選択肢が大幅に広がる",
+      "TypeScriptとの組み合わせが現在の標準。Vue 3 + TypeScript + Composition APIは必須知識",
+      "バックエンド（Laravel + Vue.js）のフルスタック経験があるとPHP系企業からの需要が高い"
+    ],
+    "faqs": [
+      {
+        "question": "Vue.jsとReact、どちらが案件多い？",
+        "answer": "フリーランス市場全体ではReactが多いですが、国内SIer・中堅企業ではVue.jsも多く採用されています。両方できると案件の選択肢が2倍以上になります。"
+      },
+      {
+        "question": "Vue 2の案件はまだある？",
+        "answer": "Vue 2は2023年末にサポート終了しましたが、既存システムの保守案件はまだ存在します。ただし新規開発はVue 3が主流なので、Vue 3への移行スキルを身につけておくことをおすすめします。"
+      },
+      {
+        "question": "Vue.jsだけで月70万円以上狙える？",
+        "answer": "Nuxt.js + TypeScript + テストの経験があり、アーキテクチャ設計まで担当できれば月70万円は十分狙えます。さらにバックエンドも担当できるフルスタックエンジニアなら月80万円超えも現実的です。"
+      }
+    ],
+    "recommendedAgents": ["findy", "levtech-freelance", "geeks-job"]
+  },
+  {
+    "slug": "typescript",
+    "title": "TypeScript案件で月単価80万を目指す",
+    "description": "フロントエンド・バックエンドともに標準化が進むTypeScript案件の最新単価相場・需要動向を解説。月単価80万円達成のための戦略を2026年版で紹介。",
+    "avgMonthlyRate": 75,
+    "avgMonthlyRateRange": "60〜100",
+    "demandTrend": "急上昇",
+    "demandDetail": "フロントエンド（React/Vue/Angular）からバックエンド（Node.js/NestJS）まで幅広く採用されるTypeScriptの需要は急速に拡大。型安全な大規模開発の標準言語として定着。",
+    "keySkills": [
+      "TypeScript（5.x）",
+      "React / Next.js または Vue.js / Nuxt.js",
+      "Node.js / NestJS（バックエンド）",
+      "Prisma / TypeORM（ORM）",
+      "GraphQL / tRPC",
+      "Vitest / Jest / Playwright",
+      "Docker / Kubernetes",
+      "AWS / Vercel"
+    ],
+    "careerTips": [
+      "TypeScriptはフロント・バックエンド両方をカバーする「フルスタックの武器」として活用する",
+      "型システムの深い理解（Generics / Utility Types / Conditional Types）があると上級案件で差別化",
+      "NestJSを使ったAPI設計経験はエンタープライズ向け大規模案件で高く評価される",
+      "tRPCやGraphQLとの組み合わせで型安全なフルスタック開発経験があると希少価値が高い",
+      "TypeScript + React + AWS/Vercelの三点セットで月80万円以上の案件を積極的に狙える"
+    ],
+    "faqs": [
+      {
+        "question": "JavaScriptからTypeScriptに移行するのはどのくらいかかる？",
+        "answer": "JavaScriptの実務経験があれば1〜3ヶ月程度でTypeScriptの基礎は習得できます。型システムを深く理解するには半年〜1年程度の実務経験が必要ですが、案件参入には基礎習得で十分です。"
+      },
+      {
+        "question": "TypeScript案件の将来性は？",
+        "answer": "非常に高いです。大規模開発における型安全性のメリットが広く認識され、新規プロジェクトではTypeScriptが標準となっています。需要は今後さらに拡大する見通しです。"
+      },
+      {
+        "question": "TypeScriptだけでフリーランスになれる？",
+        "answer": "TypeScriptは言語・ツールであり、フレームワーク（React/Vue/NestJS等）との組み合わせで案件を獲得します。TypeScript + React、またはTypeScript + NestJSの経験があれば案件獲得は十分可能です。"
+      }
+    ],
+    "recommendedAgents": ["findy", "levtech-freelance", "techstock"]
+  },
+  {
+    "slug": "ios-swift",
+    "title": "iOS(Swift)案件の単価と需要",
+    "description": "フリーランスエンジニア向けiOS/Swift案件の最新単価相場・需要動向・スキル要件を解説。モバイルアプリ開発の市場を2026年版で徹底分析。",
+    "avgMonthlyRate": 75,
+    "avgMonthlyRateRange": "60〜100",
+    "demandTrend": "安定",
+    "demandDetail": "スマートフォンアプリ開発需要は安定的に存在し、SwiftUIの普及でiOS開発の生産性が向上。フィンテック・ヘルスケア・EC系アプリの需要が継続。",
+    "keySkills": [
+      "Swift（5.x）",
+      "SwiftUI / UIKit",
+      "Combine / async/await",
+      "Xcode",
+      "Firebase / AWS Amplify",
+      "REST API / GraphQL",
+      "Core Data / Realm",
+      "TestFlight / App Store申請"
+    ],
+    "careerTips": [
+      "SwiftUIへの移行が進んでいるため、UIKitとSwiftUIの両方の経験が重宝される",
+      "iOSエンジニアとしてAndroidも対応できると案件数が大幅に増える（Kotlinの習得が有効）",
+      "フィンテック・医療・金融系アプリはセキュリティ要件が高く、その経験があると高単価案件を獲得しやすい",
+      "App Storeのリリース経験・申請対応の知識は運用込みの案件で必須スキル",
+      "SwiftUI + Combineを使ったモダンなアーキテクチャ（MVVM / The Composable Architecture）の経験が評価される"
+    ],
+    "faqs": [
+      {
+        "question": "iOSエンジニアとしてフリーランスになるのに必要な経験は？",
+        "answer": "App Storeにリリースしたアプリの開発経験が2〜3年以上あれば参入できます。個人アプリでも開発〜リリースの経験があるとポートフォリオとして評価されます。"
+      },
+      {
+        "question": "SwiftUIとUIKitはどちらを学ぶべき？",
+        "answer": "新規案件ではSwiftUIの採用が増えていますが、既存案件の保守ではUIKitが多いです。両方学ぶのが理想ですが、まずはSwiftUIに注力して、UIKitの基礎も押さえておくことをおすすめします。"
+      },
+      {
+        "question": "iOS開発者はAndroidも学ぶべき？",
+        "answer": "案件の選択肢を増やすなら有効です。Kotlinを学べばAndroid開発も担当でき、クロスプラットフォーム（Flutter/React Native）まで広げると案件数が大幅に増加します。"
+      }
+    ],
+    "recommendedAgents": ["levtech-freelance", "findy", "techstock"]
+  },
+  {
+    "slug": "android-kotlin",
+    "title": "Android(Kotlin)案件の単価と需要",
+    "description": "フリーランスエンジニア向けAndroid/Kotlin案件の最新単価相場・需要動向・スキル要件を解説。Jetpack Composeを中心とした2026年のAndroid開発市場を分析。",
+    "avgMonthlyRate": 72,
+    "avgMonthlyRateRange": "58〜95",
+    "demandTrend": "安定",
+    "demandDetail": "Androidアプリ開発需要は安定して存在し、Jetpack Composeの普及でモダンなUI開発が加速。EC・フィンテック・IoT連携アプリなど多様な案件が継続的に発生。",
+    "keySkills": [
+      "Kotlin",
+      "Jetpack Compose",
+      "Android SDK",
+      "Coroutines / Flow",
+      "Room / DataStore",
+      "Retrofit / OkHttp",
+      "Firebase",
+      "Google Play ストア申請"
+    ],
+    "careerTips": [
+      "Jetpack Composeへの移行が急速に進んでいるため、早めに習得しておくと案件獲得が有利",
+      "iOSとAndroid両方できる「モバイルエンジニア」として活動すると単価が大幅に上がる",
+      "IoT連携・Bluetoothなど特殊な要件への対応経験は希少価値が高く単価プレミアムがある",
+      "CI/CD（GitHub Actions + Fastlane）の経験が運用込みの案件で高く評価される",
+      "Kotlinの深い理解（コルーチン・Flow・DSL）があるとアーキテクチャ設計案件も担当できる"
+    ],
+    "faqs": [
+      {
+        "question": "JavaからKotlinへの移行は難しい？",
+        "answer": "AndroidのJava経験があれば1〜2ヶ月でKotlinの基本は習得できます。KotlinはJavaと相互運用できるため、既存のJavaコードを活かしながら段階的に移行できます。"
+      },
+      {
+        "question": "Androidエンジニアの将来性は？",
+        "answer": "Androidのスマートフォン普及率は世界的に高く、継続的な需要があります。Jetpack Composeの登場でUI開発がモダン化されており、成長余地があります。FlutterなどクロスプラットフォームとAndroid専門の両軸を持つと有利です。"
+      },
+      {
+        "question": "Android案件でリモートワークは可能？",
+        "answer": "開発作業はリモートで行える案件が多いですが、実機テストや顧客との打ち合わせで出社が必要なケースもあります。完全フルリモートの案件も増えており、40〜50%程度がリモート対応です。"
+      }
+    ],
+    "recommendedAgents": ["levtech-freelance", "findy", "geeks-job"]
+  },
+  {
+    "slug": "flutter",
+    "title": "Flutter案件の単価と将来性",
+    "description": "フリーランスエンジニア向けFlutter案件の最新単価相場・需要動向を解説。iOS/Android両対応のクロスプラットフォーム開発の将来性を2026年版で徹底分析。",
+    "avgMonthlyRate": 75,
+    "avgMonthlyRateRange": "60〜100",
+    "demandTrend": "急上昇",
+    "demandDetail": "iOS/Androidの両プラットフォームを一つのコードベースで開発できるFlutterの採用が急増。スタートアップを中心に開発コスト削減目的での採用が拡大し続けている。",
+    "keySkills": [
+      "Flutter（3.x）",
+      "Dart",
+      "Riverpod / Provider（状態管理）",
+      "GetX / Bloc",
+      "Firebase / Supabase",
+      "REST API / GraphQL",
+      "Android / iOS両プラットフォーム基礎知識",
+      "CI/CD（Codemagic / Fastlane）"
+    ],
+    "careerTips": [
+      "FlutterはiOS・Android両方の申請・リリース経験があることを積極的にアピールする",
+      "状態管理（Riverpod）の深い理解と設計経験があると中〜大規模案件で差別化できる",
+      "Flutter Webの経験があるとWebアプリ案件にも対応でき、案件の幅が広がる",
+      "ネイティブ（Kotlin/Swift）プラグインのカスタマイズ経験は高難度案件で高く評価される",
+      "Flutterは比較的新しい技術なので、公式ドキュメントの追随・最新機能の習得速度が評価される"
+    ],
+    "faqs": [
+      {
+        "question": "FlutterとReact Native、どちらを学ぶべき？",
+        "answer": "フリーランス案件数ではFlutterが急速に増加しており、現在はFlutterの方が将来性が高いと評価されています。Googleのサポートが手厚くUI品質も高いため、これからモバイル開発を始める場合はFlutterをおすすめします。"
+      },
+      {
+        "question": "Flutter案件でフリーランスになるには？",
+        "answer": "App StoreとGoogle Playの両方にリリースしたアプリの経験があれば参入できます。2〜3年の経験があれば月70〜80万円の案件も十分狙えます。"
+      },
+      {
+        "question": "Flutterの需要は今後どうなる？",
+        "answer": "Googleが主導するオープンソースプロジェクトとして着実に成長しており、今後も需要拡大が続く見通しです。特にスタートアップ・中小企業での採用が増えており、フリーランス市場でも案件数が増加しています。"
+      }
+    ],
+    "recommendedAgents": ["findy", "levtech-freelance", "geeks-job"]
+  },
+  {
+    "slug": "infra-linux",
+    "title": "インフラ(Linux)案件の単価と需要",
+    "description": "フリーランスエンジニア向けインフラ/Linuxエンジニア案件の最新単価相場・需要動向を解説。オンプレ・クラウド両対応のインフラ市場を2026年版で徹底分析。",
+    "avgMonthlyRate": 68,
+    "avgMonthlyRateRange": "55〜90",
+    "demandTrend": "安定",
+    "demandDetail": "クラウド移行が進む一方で、オンプレミス環境の保守・運用案件も継続。LinuxサーバーのセットアップからAWS連携まで幅広いスキルを持つインフラエンジニアへの需要は安定している。",
+    "keySkills": [
+      "Linux（RHEL / CentOS / Ubuntu）",
+      "シェルスクリプト（Bash）",
+      "ネットワーク（TCP/IP / DNS / DHCP）",
+      "Ansible（構成管理）",
+      "Terraform",
+      "Docker / Kubernetes",
+      "AWS / Azure（基本サービス）",
+      "監視（Zabbix / Prometheus / Grafana）"
+    ],
+    "careerTips": [
+      "オンプレとクラウドの両方の経験があるハイブリッドエンジニアは引き合いが多い",
+      "Ansibleによる自動化・Terraformによるインフラコード化は現在最も求められるスキルセット",
+      "セキュリティ（脆弱性対応・ペネトレーションテスト基礎）の経験があると単価が上がる",
+      "Kubernetes管理経験がある場合はクラウドネイティブ案件に参入でき、単価が10〜20万円上がる",
+      "資格（LinuC / LPIC / AWS SAA）は取得しておくと面談での評価が高くなる"
+    ],
+    "faqs": [
+      {
+        "question": "インフラエンジニアのフリーランス参入に必要な経験は？",
+        "answer": "Linuxサーバーの構築・運用経験3年以上が目安です。オンプレ環境の経験があれば参入できますが、AWSなどクラウドスキルを追加すると案件の幅が大幅に広がります。"
+      },
+      {
+        "question": "インフラ案件はフルリモートが少ない？",
+        "answer": "オンプレ中心の案件は常駐が多いですが、クラウド中心の案件はリモート対応が増えています。AWS/Azure/GCPスキルを磨くとリモート案件の比率が上がります。"
+      },
+      {
+        "question": "LinuxからクラウドへのスキルアップはどうすればいI？",
+        "answer": "AWS Solutions Architect Associate の学習からスタートするのが最短ルートです。Linuxの基礎知識はAWSでも活かせるため、EC2/VPC/IAMから順番に学習を進めると効率的です。"
+      }
+    ],
+    "recommendedAgents": ["pe-bank", "techstock", "levtech-freelance"]
+  },
+  {
+    "slug": "sap",
+    "title": "SAP案件の単価相場【高単価の理由】",
+    "description": "フリーランスエンジニア向けSAP案件の最新単価相場・需要動向・スキル要件を解説。月単価90〜120万円以上の高単価SAP市場を2026年版で徹底分析。",
+    "avgMonthlyRate": 95,
+    "avgMonthlyRateRange": "80〜130",
+    "demandTrend": "高い",
+    "demandDetail": "SAP S/4HANA移行プロジェクトが国内で多数進行中。SAPコンサルタント・BASIS・ABAPエンジニアは慢性的に不足しており、フリーランス単価は高水準が続いている。",
+    "keySkills": [
+      "SAP S/4HANA",
+      "SAP ERP（ECC 6.0）",
+      "ABAP開発",
+      "SAP BASIS（システム管理）",
+      "SAP FI / MM / SD / PP（モジュール）",
+      "SAP Fiori / UI5",
+      "SAP BTP（Business Technology Platform）",
+      "プロジェクト管理・要件定義"
+    ],
+    "careerTips": [
+      "SAP S/4HANAへの移行経験は現在最も引き合いが強いスキル。移行プロジェクト経験を積極的にアピールする",
+      "特定モジュール（FI/MM/SD）の深い専門知識がある場合、そのモジュール特化でブランディングすると高単価案件を獲得しやすい",
+      "ABAPだけでなくSAP Fiori/UI5のフロントエンドスキルがあると開発案件の幅が広がる",
+      "SAP認定コンサルタント資格は取得しているだけで単価が15〜20万円上がることがある",
+      "製造業・流通業・金融業などの業界知識とSAPの組み合わせは希少価値が極めて高い"
+    ],
+    "faqs": [
+      {
+        "question": "SAPエンジニアの単価が高い理由は？",
+        "answer": "SAPは習得に長期間かかるうえ、資格取得・認定パートナー要件なども高いため、人材が慢性的に不足しています。S/4HANA移行案件の増加で需要がさらに高まっており、高単価が維持されています。"
+      },
+      {
+        "question": "未経験からSAPエンジニアになれる？",
+        "answer": "完全未経験からは難しいですが、SIerでSAP案件の経験を積んでからフリーランスに転身するキャリアパスが一般的です。まずはSAPの入門資格を取得し、SIerやIT企業でのSAP業務経験を積むことをおすすめします。"
+      },
+      {
+        "question": "SAP案件はフルリモートが可能？",
+        "answer": "SAPは機密情報を扱うシステムが多いため、常駐が基本のケースが多いです。ただしS/4HANA移行プロジェクトではリモート参加を認めるケースも増えており、ハイブリッド勤務の案件も存在します。"
+      }
+    ],
+    "recommendedAgents": ["pe-bank", "itpro-partners", "levtech-freelance"]
   }
 ]
