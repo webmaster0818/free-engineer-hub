@@ -1,0 +1,155 @@
+[
+  {
+    "slug": "language-ranking",
+    "title": "言語別単価ランキング2026",
+    "description": "フリーランスエンジニアの言語別平均単価ランキング2026年最新版。Java・Python・Go・TypeScript・Rustなど主要言語の単価相場と需要動向を徹底解説します。",
+    "dataPoints": [
+      { "label": "Rust", "value": 105, "unit": "万円/月", "trend": "急上昇", "demand": "高" },
+      { "label": "Go", "value": 98, "unit": "万円/月", "trend": "上昇", "demand": "高" },
+      { "label": "TypeScript", "value": 95, "unit": "万円/月", "trend": "上昇", "demand": "非常に高" },
+      { "label": "Python（ML/AI）", "value": 110, "unit": "万円/月", "trend": "急上昇", "demand": "非常に高" },
+      { "label": "Kotlin", "value": 90, "unit": "万円/月", "trend": "横ばい", "demand": "中" },
+      { "label": "Swift", "value": 88, "unit": "万円/月", "trend": "横ばい", "demand": "中" },
+      { "label": "Java", "value": 85, "unit": "万円/月", "trend": "横ばい", "demand": "非常に高" },
+      { "label": "C#（.NET）", "value": 82, "unit": "万円/月", "trend": "横ばい", "demand": "高" },
+      { "label": "PHP", "value": 72, "unit": "万円/月", "trend": "下降", "demand": "中" },
+      { "label": "Ruby", "value": 78, "unit": "万円/月", "trend": "下降", "demand": "中" }
+    ],
+    "analysis": "2026年の最大トレンドはAI/ML案件の急増によるPython単価の高騰です。Go・TypeScript・Rustも継続的な上昇トレンドにあります。Javaは需要が安定して高く、案件数の多さから初フリーランスが取り組みやすい言語です。PHPは案件数は多いものの単価は横ばい〜下降傾向にあります。",
+    "recommendedAgents": ["levtech-freelance", "findy", "pe-bank"],
+    "faqs": [
+      {
+        "question": "一番単価が高い言語は？",
+        "answer": "2026年はPython（AI/ML特化）が最高水準で月100〜120万円程度です。Rustも希少性と需要から月100万円以上が多く、GoとTypeScriptが月90〜100万円で追っています。"
+      },
+      {
+        "question": "Javaエンジニアは今後も需要がある？",
+        "answer": "はい、金融・SIer・大企業のシステム基盤として長期的に需要が続く見込みです。ただしモダンJava（Spring Boot・マイクロサービス）の知識があると単価交渉で有利になります。"
+      },
+      {
+        "question": "PHPエンジニアは転換すべき？",
+        "answer": "PHP自体が廃れるわけではありませんが、単価の成長率は低いです。現案件を維持しながら TypeScript・Pythonなどの副スキルを習得することを推奨します。"
+      }
+    ]
+  },
+  {
+    "slug": "framework-ranking",
+    "title": "フレームワーク別単価ランキング",
+    "description": "フリーランスエンジニアのフレームワーク別平均単価ランキング2026年版。React・Next.js・Vue.js・Django・Springなど主要フレームワークの単価と需要を比較します。",
+    "dataPoints": [
+      { "label": "Next.js", "value": 98, "unit": "万円/月", "trend": "上昇", "demand": "非常に高" },
+      { "label": "React", "value": 95, "unit": "万円/月", "trend": "上昇", "demand": "非常に高" },
+      { "label": "FastAPI（Python）", "value": 100, "unit": "万円/月", "trend": "上昇", "demand": "高" },
+      { "label": "Spring Boot", "value": 88, "unit": "万円/月", "trend": "横ばい", "demand": "非常に高" },
+      { "label": "Django/DRF", "value": 88, "unit": "万円/月", "trend": "上昇", "demand": "高" },
+      { "label": "Flutter", "value": 90, "unit": "万円/月", "trend": "上昇", "demand": "高" },
+      { "label": "Vue.js", "value": 82, "unit": "万円/月", "trend": "横ばい", "demand": "高" },
+      { "label": "Laravel", "value": 70, "unit": "万円/月", "trend": "横ばい", "demand": "中" },
+      { "label": "Ruby on Rails", "value": 78, "unit": "万円/月", "trend": "下降", "demand": "中" },
+      { "label": "Angular", "value": 85, "unit": "万円/月", "trend": "横ばい", "demand": "中" }
+    ],
+    "analysis": "Next.js・Reactの二強は2026年も高単価・高需要を維持しています。FastAPIはAI/MLのバックエンドとして急速に普及し単価が急上昇中。Spring Bootは案件数・単価ともに安定した需要を維持。Ruby on RailsはSaaSスタートアップの主力技術ですが新規採用は減少傾向です。",
+    "recommendedAgents": ["findy", "levtech-freelance", "techstock"],
+    "faqs": [
+      {
+        "question": "フロントエンドで最も単価が高いフレームワークは？",
+        "answer": "Next.js（React）が最高水準で月90〜110万円程度です。TypeScriptとの組み合わせが標準になっており、フルスタック開発ができるエンジニアへの需要が特に高いです。"
+      },
+      {
+        "question": "バックエンドで需要が高まっているフレームワークは？",
+        "answer": "FastAPI（Python）がAI/MLバックエンドとして急増中です。Go（標準ライブラリ+gin/echo）もマイクロサービス領域で需要が高く、月95〜110万円程度の案件が多いです。"
+      },
+      {
+        "question": "Flutterエンジニアの市場はどう？",
+        "answer": "iOS/Android両対応の効率性からスタートアップを中心に需要増加中です。単価は月85〜100万円程度で、ネイティブエンジニアと近い水準になってきています。"
+      }
+    ]
+  },
+  {
+    "slug": "experience-salary",
+    "title": "経験年数別年収データ",
+    "description": "フリーランスエンジニアの経験年数別平均年収データ2026年版。未経験〜10年以上まで、実際のデータに基づく年収相場と単価の目安を公開します。",
+    "dataPoints": [
+      { "label": "経験1〜2年", "value": 600, "unit": "万円/年", "trend": "→", "demand": "低" },
+      { "label": "経験3〜4年", "value": 780, "unit": "万円/年", "trend": "→", "demand": "中" },
+      { "label": "経験5〜6年", "value": 960, "unit": "万円/年", "trend": "↑", "demand": "高" },
+      { "label": "経験7〜8年", "value": 1080, "unit": "万円/年", "trend": "↑", "demand": "高" },
+      { "label": "経験9〜10年", "value": 1200, "unit": "万円/年", "trend": "↑", "demand": "高" },
+      { "label": "経験10年以上（PM/アーキテクト）", "value": 1440, "unit": "万円/年", "trend": "↑↑", "demand": "非常に高" }
+    ],
+    "analysis": "フリーランスエンジニアの年収は経験年数に比例して増加しますが、特に経験5年前後で大きなジャンプがあります。10年以上でPM・アーキテクト・コンサルタント業務を担えるエンジニアは年収1,200〜1,800万円も珍しくありません。技術の専門性と上流工程への移行が年収アップの鍵です。",
+    "recommendedAgents": ["levtech-freelance", "pe-bank", "findy"],
+    "faqs": [
+      {
+        "question": "経験3年でフリーランスに転向しても問題ない？",
+        "answer": "可能です。経験3〜4年であれば月65〜80万円（年780〜960万円）程度の案件を獲得できるケースが多いです。得意技術を絞ってアピールすることで採用率が上がります。"
+      },
+      {
+        "question": "フリーランスと会社員の年収差はどのくらい？",
+        "answer": "同程度の経験・スキルで比べると、フリーランスの方が年収が1.5〜2倍になるケースが多いです。ただし社会保険・税金の自己負担や案件が途切れるリスクを考慮する必要があります。"
+      },
+      {
+        "question": "年収1,000万円以上を達成するには？",
+        "answer": "経験7〜8年以上で需要の高い技術（Go・Python/AI・AWS）の専門性、もしくは上流工程（設計・PM・アーキテクト）への移行が一般的な道筋です。"
+      }
+    ]
+  },
+  {
+    "slug": "freelance-vs-employee",
+    "title": "フリーランスvs正社員 年収比較",
+    "description": "フリーランスエンジニアと正社員エンジニアの年収を徹底比較。税金・社会保険・リスクまで考慮した実質的な手取り比較と、フリーランス転向のタイミングを解説します。",
+    "dataPoints": [
+      { "label": "正社員（経験3年・中堅企業）", "value": 500, "unit": "万円/年", "trend": "→", "demand": "→" },
+      { "label": "フリーランス（経験3年）", "value": 780, "unit": "万円/年", "trend": "→", "demand": "→" },
+      { "label": "正社員（経験5年・大企業）", "value": 650, "unit": "万円/年", "trend": "→", "demand": "→" },
+      { "label": "フリーランス（経験5年）", "value": 960, "unit": "万円/年", "trend": "↑", "demand": "↑" },
+      { "label": "正社員（経験10年・大企業）", "value": 850, "unit": "万円/年", "trend": "→", "demand": "→" },
+      { "label": "フリーランス（経験10年）", "value": 1320, "unit": "万円/年", "trend": "↑", "demand": "↑" }
+    ],
+    "analysis": "経験年数に関わらずフリーランスの方が年収が高い傾向がありますが、正社員には社会保険の会社負担（約15%）・賞与・福利厚生・安定性といったメリットがあります。経費控除・青色申告特別控除（65万円）などを活用すれば、フリーランスの実質手取りはさらに改善されます。年収比較だけでなく生活スタイル・リスク許容度を総合的に考慮した判断が重要です。",
+    "recommendedAgents": ["levtech-freelance", "midworks", "findy"],
+    "faqs": [
+      {
+        "question": "フリーランスの年収から実際の手取りはどう計算する？",
+        "answer": "年収の30〜35%が税金・社会保険の目安です。年収1,000万円なら手取りは650〜700万円程度。ただし経費（PC・書籍・家賃の一部等）を計上することで節税でき、実質的な手取りを増やせます。"
+      },
+      {
+        "question": "正社員からフリーランスに転向するベストタイミングは？",
+        "answer": "経験3〜5年・担当できる技術が明確・半年分の生活費が確保できている状態が転向の目安です。また副業で月10〜20万円程度稼げるようになってから転向するとリスクが減ります。"
+      },
+      {
+        "question": "フリーランスで年収を会社員の2倍にするのは現実的？",
+        "answer": "経験5年以上・需要の高い技術スタック・交渉力があれば現実的です。実際に年収2倍（会社員700万円→フリーランス1,400万円）を達成するエンジニアも珍しくありません。"
+      }
+    ]
+  },
+  {
+    "slug": "market-trend-2026",
+    "title": "フリーランスエンジニア市場動向2026",
+    "description": "2026年のフリーランスエンジニア市場の最新動向を解説。AI・クラウド・DXによる需要変化、単価トレンド、これから伸びるスキルまで詳しく分析します。",
+    "dataPoints": [
+      { "label": "フリーランスエンジニア市場規模", "value": 6800, "unit": "億円", "trend": "急上昇", "demand": "非常に高" },
+      { "label": "フリーランスエンジニア人口", "value": 68, "unit": "万人", "trend": "上昇", "demand": "→" },
+      { "label": "平均単価（2026年）", "value": 85, "unit": "万円/月", "trend": "上昇", "demand": "→" },
+      { "label": "AI/ML案件の割合", "value": 28, "unit": "%", "trend": "急上昇", "demand": "非常に高" },
+      { "label": "フルリモート案件の割合", "value": 52, "unit": "%", "trend": "上昇", "demand": "→" },
+      { "label": "週3〜4稼働案件の割合", "value": 35, "unit": "%", "trend": "上昇", "demand": "→" }
+    ],
+    "analysis": "2026年のフリーランスエンジニア市場は3つのメガトレンドが牽引しています。①AI/ML案件の爆発的増加：ChatGPT・Claude等のAI実装・RAG・ファインチューニングの需要が急増。②DX推進の継続：金融・製造・医療など旧来型産業のデジタル化が継続中。③働き方の多様化：フルリモート・週3〜4稼働案件が過半数となり、ライフスタイルに合わせた働き方が可能に。これからの伸びるスキルはPython/AI・クラウド（AWS/GCP）・セキュリティ・PM/コンサルタント能力です。",
+    "recommendedAgents": ["levtech-freelance", "findy", "techstock", "pe-bank"],
+    "faqs": [
+      {
+        "question": "AIの普及でフリーランスエンジニアの需要は減る？",
+        "answer": "短期的には減らず、むしろAI実装・運用を担うエンジニアへの需要が急増しています。AIを使いこなすエンジニアが生産性を高め、より複雑な問題解決に集中できる環境が整いつつあります。"
+      },
+      {
+        "question": "2026年に最も需要が高いスキルは？",
+        "answer": "①Python＋AI/ML（LLM・RAG等）②クラウド（AWS/GCP/Azure）③TypeScript/Next.js④セキュリティ⑤データエンジニアリングが2026年の高需要スキルTop5です。"
+      },
+      {
+        "question": "フリーランス市場はこれからも成長する？",
+        "answer": "政府の副業・フリーランス推進政策・企業のスキル特化型採用シフト・テレワーク定着の三要因から、今後5〜10年は継続的な成長が見込まれます。"
+      }
+    ]
+  }
+]

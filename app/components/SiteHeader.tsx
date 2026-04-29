@@ -37,6 +37,12 @@ export default function SiteHeader() {
           <a href="/compare/levtech-vs-midworks/" className="hover:text-primary transition-colors">
             比較
           </a>
+          <a href="/career/first-project/" className="hover:text-primary transition-colors">
+            案件獲得
+          </a>
+          <a href="/market/language-ranking/" className="hover:text-primary transition-colors">
+            単価データ
+          </a>
         </nav>
 
         {/* Hamburger button */}
@@ -117,6 +123,27 @@ export default function SiteHeader() {
               onClick={() => setMenuOpen(false)}
             >
               比較
+            </a>
+            <a
+              href="/career/first-project/"
+              className="px-6 py-3 text-sm font-medium text-text-secondary hover:bg-background hover:text-primary transition-colors"
+              onClick={() => setMenuOpen(false)}
+            >
+              案件獲得ガイド
+            </a>
+            <a
+              href="/region/tokyo/"
+              className="px-6 py-3 text-sm font-medium text-text-secondary hover:bg-background hover:text-primary transition-colors"
+              onClick={() => setMenuOpen(false)}
+            >
+              地域別案件
+            </a>
+            <a
+              href="/market/language-ranking/"
+              className="px-6 py-3 text-sm font-medium text-text-secondary hover:bg-background hover:text-primary transition-colors"
+              onClick={() => setMenuOpen(false)}
+            >
+              単価データ
             </a>
           </nav>
         </div>

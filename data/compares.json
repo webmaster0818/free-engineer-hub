@@ -161,5 +161,171 @@
         "answer": "coconalaテックはリモート案件比率が80%以上と特に高いです。Findyもモダン技術案件でリモート比率が高く、どちらかリモート志向に向いています。"
       }
     ]
+  },
+  {
+    "slug": "levtech-vs-pebank",
+    "title": "レバテック vs PE-BANK徹底比較",
+    "description": "フリーランスエンジニア向けエージェント、レバテックフリーランスとPE-BANKを徹底比較。案件数・単価・マージン率・サポート体制を2026年最新情報で解説します。",
+    "agents": ["levtech-freelance", "pe-bank"],
+    "comparisonTable": [
+      { "category": "案件数", "levtech": "20,000件以上（業界最多）", "pebank": "約8,000件" },
+      { "category": "平均年収", "levtech": "876万円", "pebank": "864万円" },
+      { "category": "マージン率", "levtech": "非公開（業界平均水準）", "pebank": "公開（10〜15%）" },
+      { "category": "リモート率", "levtech": "45%程度", "pebank": "40%程度" },
+      { "category": "最低稼働日数", "levtech": "週5日", "pebank": "週5日" },
+      { "category": "強み", "levtech": "案件数・大手案件・サポート充実", "pebank": "マージン率公開・手取り最大化" }
+    ],
+    "winnerByCategory": [
+      { "category": "案件数の多さ", "winner": "levtech-freelance", "reason": "業界最大級の20,000件以上で選択肢が圧倒的に多い" },
+      { "category": "手取り最大化", "winner": "pe-bank", "reason": "業界唯一のマージン率公開で10〜15%と最低水準" },
+      { "category": "サポート体制", "winner": "levtech-freelance", "reason": "専任コーディネーター・税務サポートなど充実" },
+      { "category": "透明性", "winner": "pe-bank", "reason": "マージン率を公開している唯一のエージェント" }
+    ],
+    "recommendation": "案件の選択肢を最大化・大手企業案件への参画を目指すならレバテックフリーランス。手取りを最大化・透明性のあるエージェントを求めるならPE-BANKがおすすめです。どちらも登録して案件と条件を比較するのが最善策です。",
+    "faqs": [
+      {
+        "question": "レバテックとPE-BANK、初めてのフリーランスにはどちらが向いている？",
+        "answer": "初フリーランスにはレバテックフリーランスがおすすめです。案件数が多くサポートが充実しているため、初案件獲得の確率が高まります。実績が積めてきたらPE-BANKで手取り改善を目指す戦略が有効です。"
+      },
+      {
+        "question": "PE-BANKのマージン率は本当に低い？",
+        "answer": "PE-BANKは業界唯一のマージン率公開エージェントで、公開値は10〜15%です。他社が非公開であることと比較すると、透明性という意味では業界トップです。"
+      },
+      {
+        "question": "両方同時登録は問題ない？",
+        "answer": "全く問題ありません。複数エージェント登録は一般的で、両社の案件を比較検討することをおすすめします。"
+      }
+    ]
+  },
+  {
+    "slug": "findy-vs-techfree",
+    "title": "Findy Freelance vs テクフリ徹底比較",
+    "description": "モダン技術系フリーランスエンジニア向けエージェント、Findy FreelanceとテクフリをAI活用・リモート案件・単価の観点で徹底比較。2026年最新版。",
+    "agents": ["findy", "techfree"],
+    "comparisonTable": [
+      { "category": "案件数", "findy": "約50,000件（求人含む）", "techfree": "約10,000件" },
+      { "category": "AI活用", "findy": "AIスカウト機能あり", "techfree": "標準機能" },
+      { "category": "リモート率", "findy": "70%以上", "techfree": "60%程度" },
+      { "category": "得意技術", "findy": "React/Go/TypeScript/AWS", "techfree": "Web全般・PHP/Java" },
+      { "category": "サポート", "findy": "スカウト型・自己応募", "techfree": "担当者が案件提案" },
+      { "category": "平均単価", "findy": "月85万円程度", "techfree": "月75万円程度" }
+    ],
+    "winnerByCategory": [
+      { "category": "モダン技術案件数", "winner": "findy", "reason": "React・Go・TypeScript等のモダン技術案件が圧倒的に多い" },
+      { "category": "リモート案件比率", "winner": "findy", "reason": "リモート率70%以上でリモート志向に最適" },
+      { "category": "担当者サポート", "winner": "techfree", "reason": "専任担当者が案件提案を行うきめ細かいサポート" },
+      { "category": "AI活用機能", "winner": "findy", "reason": "AIスカウトでスキルに合った案件提案が自動化" }
+    ],
+    "recommendation": "モダン技術スタック・フルリモート案件を重視するならFindy Freelance。担当者による手厚いサポートを希望するならテクフリがおすすめです。両方に登録することで案件の選択肢を最大化できます。",
+    "faqs": [
+      {
+        "question": "FindyとテクフリはどちらがWeb系エンジニアに向いている？",
+        "answer": "モダン技術（React/Next.js/TypeScript/Go）メインならFindy、PHP/JavaなどのWeb全般ならテクフリが向いています。どちらに登録しても損はありません。"
+      },
+      {
+        "question": "Findyはスカウト型？自分から応募できる？",
+        "answer": "両方可能です。AIスカウトで企業からオファーを受けることもできますし、自分で案件を検索して応募することもできます。"
+      }
+    ]
+  },
+  {
+    "slug": "high-rate-top5",
+    "title": "高単価案件に強いエージェントTop5",
+    "description": "フリーランスエンジニアが月100万円以上・高単価案件を獲得するのに強いエージェントTop5を徹底比較。単価水準・案件の質・交渉力を2026年最新版で解説します。",
+    "agents": ["levtech-freelance", "pe-bank", "techstock", "findy", "midworks"],
+    "comparisonTable": [
+      { "category": "平均単価", "levtech": "月73万円（年収876万円）", "pebank": "月72万円（年収864万円）", "techstock": "月75万円（年収900万円）", "findy": "月71万円（年収852万円）", "midworks": "月70万円（年収840万円）" },
+      { "category": "月100万円以上案件", "levtech": "多い", "pebank": "多い", "techstock": "多い", "findy": "あり", "midworks": "少なめ" },
+      { "category": "高単価分野", "levtech": "大手企業・金融系", "pebank": "製造・金融系", "techstock": "週5フル稼働系", "findy": "AI/ML・モダン技術", "midworks": "福利厚生重視" },
+      { "category": "単価交渉力", "levtech": "高い", "pebank": "高い（マージン公開）", "techstock": "高い", "findy": "スカウト型で高い", "midworks": "標準" }
+    ],
+    "winnerByCategory": [
+      { "category": "総合高単価", "winner": "techstock", "reason": "月100万円以上案件が多く、高単価専門エンジニア向け" },
+      { "category": "案件数×高単価", "winner": "levtech-freelance", "reason": "案件数No.1のため高単価案件の絶対数が最多" },
+      { "category": "透明な高単価", "winner": "pe-bank", "reason": "マージン率公開で手取りが最も透明" },
+      { "category": "AI/ML高単価", "winner": "findy", "reason": "AI/ML案件でスカウト型の高単価オファーが多い" }
+    ],
+    "recommendation": "高単価案件の絶対数ならレバテックフリーランス、月100万円以上専門ならTechStock、手取り最大化はPE-BANK、AI/ML特化はFindyが最優先候補です。複数エージェント登録で高単価案件の選択肢を最大化しましょう。",
+    "faqs": [
+      {
+        "question": "月100万円以上の案件を獲得するには何年の経験が必要？",
+        "answer": "一般的に経験5〜7年以上、もしくは需要の高い希少スキル（AI/ML・Go・Rust・AWS上級資格等）があれば月100万円以上の案件を狙えます。"
+      },
+      {
+        "question": "高単価案件は競争率が高い？",
+        "answer": "高単価ほど要求スキルが高いため競争率は高いですが、希少技術を持つエンジニアへのオファーは不足しています。スキルの差別化が鍵です。"
+      },
+      {
+        "question": "フルリモートで月100万円は可能？",
+        "answer": "可能です。AI/ML・クラウド（AWS上級）・セキュリティ・アーキテクト等の高付加価値スキルであればフルリモートでも月100万円以上の案件が存在します。"
+      }
+    ]
+  },
+  {
+    "slug": "benefits-top5",
+    "title": "福利厚生が充実したエージェントTop5",
+    "description": "フリーランスエンジニア向けに社会保険・給与保障・税務サポートなど福利厚生が充実したエージェントTop5を比較。フリーランスでも会社員に近い待遇を実現する方法を解説します。",
+    "agents": ["midworks", "levtech-freelance", "pe-bank", "itpro-partners", "techstock"],
+    "comparisonTable": [
+      { "category": "社会保険加入", "midworks": "可能（最大の特徴）", "levtech": "不可", "pebank": "不可", "itpro": "不可", "techstock": "不可" },
+      { "category": "給与保障", "midworks": "あり", "levtech": "なし", "pebank": "なし", "itpro": "なし", "techstock": "なし" },
+      { "category": "確定申告サポート", "midworks": "あり", "levtech": "あり", "pebank": "あり", "itpro": "あり", "techstock": "あり" },
+      { "category": "賠償責任保険", "midworks": "あり", "levtech": "なし", "pebank": "あり", "itpro": "なし", "techstock": "なし" },
+      { "category": "スキルアップ支援", "midworks": "勉強会あり", "levtech": "セミナーあり", "pebank": "勉強会あり", "itpro": "コミュニティあり", "techstock": "あり" }
+    ],
+    "winnerByCategory": [
+      { "category": "総合福利厚生No.1", "winner": "midworks", "reason": "社会保険加入・給与保障など会社員に最も近い待遇を提供" },
+      { "category": "社会保険", "winner": "midworks", "reason": "唯一の社会保険加入サポートで健康保険・厚生年金が使える" },
+      { "category": "確定申告サポート", "winner": "levtech-freelance", "reason": "専属税理士紹介・申告サポートが業界最高水準" },
+      { "category": "賠償責任保険", "winner": "pe-bank", "reason": "業務上のミスによる損害賠償を補償する保険が含まれる" }
+    ],
+    "recommendation": "福利厚生を最重視するならMidworksが圧倒的トップです。特に社会保険・給与保障はMidworks特有のサービスです。税務サポートならレバテックフリーランス、賠償責任保険はPE-BANKが充実しています。自分が重視する福利厚生に合わせてエージェントを選びましょう。",
+    "faqs": [
+      {
+        "question": "Midworksの社会保険はどう機能する？",
+        "answer": "Midworksと雇用契約を結ぶことで、会社員と同様の社会保険（健康保険・厚生年金）に加入できます。国民健康保険より保険料が安くなるケースが多く、フリーランスでも安心の医療保険が利用できます。"
+      },
+      {
+        "question": "給与保障はどんな時に使える？",
+        "answer": "案件と案件の間（待機期間）に一定の収入を保障するプログラムです。案件が突然終了した場合や次案件の準備期間中の生活費をカバーできます。"
+      },
+      {
+        "question": "賠償責任保険は必要？",
+        "answer": "開発中のバグが原因でクライアントに損害を与えた場合の補償として有効です。案件規模が大きいほど損害賠償リスクが高いため、加入を検討する価値があります。"
+      }
+    ]
+  },
+  {
+    "slug": "beginner-top5",
+    "title": "フリーランス初心者におすすめエージェントTop5",
+    "description": "フリーランス未経験・初心者エンジニアにおすすめのエージェントTop5を比較。初案件獲得のしやすさ・サポートの手厚さ・案件の豊富さで選ぶべきエージェントを解説します。",
+    "agents": ["levtech-freelance", "midworks", "findy", "techfree", "itpro-partners"],
+    "comparisonTable": [
+      { "category": "初案件獲得のしやすさ", "levtech": "高い（案件数最多）", "midworks": "高い（サポート充実）", "findy": "中（スキルマッチ）", "techfree": "中", "itpro": "中（副業OK）" },
+      { "category": "担当者サポート", "levtech": "非常に充実", "midworks": "非常に充実", "findy": "スカウト型", "techfree": "充実", "itpro": "充実" },
+      { "category": "福利厚生", "levtech": "税務サポートあり", "midworks": "社会保険・給与保障", "findy": "標準", "techfree": "標準", "itpro": "コミュニティ" },
+      { "category": "週3〜4稼働案件", "levtech": "少なめ", "midworks": "多い", "findy": "あり", "techfree": "あり", "itpro": "多い" }
+    ],
+    "winnerByCategory": [
+      { "category": "初案件獲得のしやすさ", "winner": "levtech-freelance", "reason": "案件数業界最多のため、スキルに合う初案件が見つかりやすい" },
+      { "category": "初心者サポートの充実", "winner": "midworks", "reason": "社会保険・給与保障・担当者サポートで安心して独立できる" },
+      { "category": "副業→フリーランス移行", "winner": "itpro-partners", "reason": "週2〜3稼働案件が多く副業から徐々に移行できる" },
+      { "category": "スキルマッチの精度", "winner": "findy", "reason": "AIスカウトでスキルに最もマッチした案件が提案される" }
+    ],
+    "recommendation": "初めてのフリーランス案件獲得ならレバテックフリーランスを最初の選択肢として強くおすすめします。不安なら安心サポートのMidworks、副業から始めるならITプロパートナーズと組み合わせることで初フリーランスのリスクを大きく下げられます。",
+    "faqs": [
+      {
+        "question": "フリーランス経験ゼロでも登録できる？",
+        "answer": "はい、各エージェントは正社員・派遣社員からの独立希望者を受け付けています。ただし案件獲得には実務経験（一般的に2〜3年以上）が必要です。"
+      },
+      {
+        "question": "初案件は単価より安定を優先すべき？",
+        "answer": "はい、最初は実績作りと経験を優先しましょう。月60〜70万円でも6ヶ月以上の実績を積むことで、次の案件から単価アップ交渉がしやすくなります。"
+      },
+      {
+        "question": "フリーランスになる前に準備することは？",
+        "answer": "①半年分の生活費の確保②スキルシート・経歴書の準備③開業届の準備④健康保険の切り替え手続き確認が最低限の準備項目です。"
+      }
+    ]
   }
 ]

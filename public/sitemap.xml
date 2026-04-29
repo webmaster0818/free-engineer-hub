@@ -268,7 +268,7 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- Compare pages (5) -->
+  <!-- Compare pages (existing 5) -->
   <url>
     <loc>https://free-engineer-hub.com/compare/levtech-vs-midworks/</loc>
     <changefreq>monthly</changefreq>
@@ -293,5 +293,163 @@
     <loc>https://free-engineer-hub.com/compare/remote-comparison/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+
+  <!-- Compare pages (new 5) -->
+  <url>
+    <loc>https://free-engineer-hub.com/compare/levtech-vs-pebank/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/compare/findy-vs-techfree/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/compare/high-rate-top5/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/compare/benefits-top5/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/compare/beginner-top5/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Career / acquisition guide pages (10) -->
+  <url>
+    <loc>https://free-engineer-hub.com/career/first-project/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/career/rate-negotiation/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/career/portfolio/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/career/interview/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/career/resume/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/career/project-selection/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/career/long-vs-short/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/career/direct-client/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/career/multi-agent/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/career/without-agent/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Region pages (10) -->
+  <url>
+    <loc>https://free-engineer-hub.com/region/tokyo/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/region/osaka/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/region/nagoya/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/region/fukuoka/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/region/sapporo/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/region/yokohama/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/region/kyoto/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/region/sendai/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/region/full-remote/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/region/regional/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Market / salary data pages (5) -->
+  <url>
+    <loc>https://free-engineer-hub.com/market/language-ranking/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/market/framework-ranking/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/market/experience-salary/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/market/freelance-vs-employee/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://free-engineer-hub.com/market/market-trend-2026/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>

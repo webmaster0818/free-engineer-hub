@@ -78,11 +78,37 @@ export default function SiteFooter() {
               <li><a href="/useful/incorporation/" className="hover:text-white transition-colors">法人化のタイミング</a></li>
             </ul>
             <h3 className="text-sm font-bold text-white mb-4">エージェント比較</h3>
-            <ul className="space-y-2 text-sm">
+            <ul className="space-y-2 text-sm mb-6">
               <li><a href="/compare/levtech-vs-midworks/" className="hover:text-white transition-colors">レバテック vs Midworks</a></li>
-              <li><a href="/compare/margin-comparison/" className="hover:text-white transition-colors">マージン率比較</a></li>
-              <li><a href="/compare/remote-comparison/" className="hover:text-white transition-colors">リモート案件数比較</a></li>
+              <li><a href="/compare/levtech-vs-pebank/" className="hover:text-white transition-colors">レバテック vs PE-BANK</a></li>
+              <li><a href="/compare/high-rate-top5/" className="hover:text-white transition-colors">高単価エージェントTop5</a></li>
+              <li><a href="/compare/beginner-top5/" className="hover:text-white transition-colors">初心者向けTop5</a></li>
               <li><a href="/compare/benefits-comparison/" className="hover:text-white transition-colors">福利厚生比較</a></li>
+            </ul>
+            <h3 className="text-sm font-bold text-white mb-4">案件獲得ガイド</h3>
+            <ul className="space-y-2 text-sm mb-6">
+              <li><a href="/career/first-project/" className="hover:text-white transition-colors">初案件の取り方</a></li>
+              <li><a href="/career/rate-negotiation/" className="hover:text-white transition-colors">単価UP交渉術</a></li>
+              <li><a href="/career/portfolio/" className="hover:text-white transition-colors">ポートフォリオ作り方</a></li>
+              <li><a href="/career/multi-agent/" className="hover:text-white transition-colors">複数エージェント活用術</a></li>
+              <li><a href="/career/direct-client/" className="hover:text-white transition-colors">直請け案件の見つけ方</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="text-sm font-bold text-white mb-4">地域別案件情報</h3>
+            <ul className="space-y-2 text-sm mb-6">
+              <li><a href="/region/tokyo/" className="hover:text-white transition-colors">東京の案件</a></li>
+              <li><a href="/region/osaka/" className="hover:text-white transition-colors">大阪の案件</a></li>
+              <li><a href="/region/full-remote/" className="hover:text-white transition-colors">フルリモート案件</a></li>
+              <li><a href="/region/regional/" className="hover:text-white transition-colors">地方在住フリーランス</a></li>
+            </ul>
+            <h3 className="text-sm font-bold text-white mb-4">市場・単価データ</h3>
+            <ul className="space-y-2 text-sm">
+              <li><a href="/market/language-ranking/" className="hover:text-white transition-colors">言語別単価ランキング</a></li>
+              <li><a href="/market/framework-ranking/" className="hover:text-white transition-colors">フレームワーク別単価</a></li>
+              <li><a href="/market/experience-salary/" className="hover:text-white transition-colors">経験年数別年収</a></li>
+              <li><a href="/market/freelance-vs-employee/" className="hover:text-white transition-colors">フリーランスvs正社員</a></li>
+              <li><a href="/market/market-trend-2026/" className="hover:text-white transition-colors">市場動向2026</a></li>
             </ul>
           </div>
         </div>
