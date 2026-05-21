@@ -11,6 +11,7 @@ const notoSansJP = Noto_Sans_JP({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://free-engineer-hub.pages.dev"),
+  alternates: { canonical: "/" },
   title:
     "フリーエンジニアHub｜フリーランスエンジニア向けエージェント比較【2026年最新】",
   description:
